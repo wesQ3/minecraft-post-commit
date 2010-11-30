@@ -1,0 +1,4 @@
+Add a little humor to your project with a Minecraft splash message :D  We have a version file to mark builds we give to our customer, but is blank on dev machines. This way I get a regularly changing version string on the main page.
+Just add a line like this to your .git/hooks/post-commit
+  # strawberry for me since I'm on windows
+  /c/strawberry/perl/bin/perl.exe ~/codez/mc-ver/mc-ver.pl > VERSION
